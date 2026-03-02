@@ -9,8 +9,8 @@ AS-04: Verify GET /users/999 returns 404
 
 ## POST Requests
 
-AS-05: Verify POST /users creates new user  
-AS-06: Verify POST /users with missing fields returns error  
+AS-05 – POST /users – Verify user creation (201)
+AS-06 – POST /users – Verify behavior with missing fields
 
 ## PUT Requests
 
