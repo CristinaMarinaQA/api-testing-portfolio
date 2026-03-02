@@ -21,3 +21,12 @@ AS-08: Verify PUT /users/999 returns error
 
 AS-09: Verify DELETE /users/2 returns 204  
 AS-10: Verify DELETE /users/999 handles gracefully
+
+
+## Execution Status
+
+## GET Requests
+AS-01: Pass
+AS-02: Pass
+AS-03: Pass
+AS-04: Pass
