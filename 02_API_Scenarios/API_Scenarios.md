@@ -28,10 +28,3 @@ AS-09 – Verify DELETE /users/1 (Expected: 200 OK)
 AS-10 – Verify DELETE /users/9999 (Expected: 200 OK – mock behavior)
 
 
-## Execution Status
-
-## GET Requests
-AS-01: Pass
-AS-02: Pass
-AS-03: Pass
-AS-04: Pass
