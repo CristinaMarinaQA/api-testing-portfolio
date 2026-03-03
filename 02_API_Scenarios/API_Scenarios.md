@@ -15,8 +15,11 @@ AS-06: Verify POST /users – Verify behavior with missing fields
 
 ## PUT Requests
 
-AS-07: Verify PUT /users/2 updates user  
-AS-08: Verify PUT /users/999 returns error  
+AS-07 – Verify PUT /users/1 updates existing user (Expected: 200 OK)
+
+AS-08 – Verify PUT /users/9999 for non-existing user 
+Expected: 200 OK (mock behavior)
+Actual: 500 Internal Server Error 
 
 ## DELETE Requests
 
