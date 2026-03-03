@@ -23,8 +23,9 @@ Actual: 500 Internal Server Error
 
 ## DELETE Requests
 
-AS-09: Verify DELETE /users/2 returns 204  
-AS-10: Verify DELETE /users/999 handles gracefully
+AS-09 – Verify DELETE /users/1 (Expected: 200 OK)
+
+AS-10 – Verify DELETE /users/9999 (Expected: 200 OK – mock behavior)
 
 
 ## Execution Status
