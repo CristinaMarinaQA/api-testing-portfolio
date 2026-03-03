@@ -77,6 +77,3 @@ Junior QA – API Testing Practice Project
 - Negative Testing
 - Bug Reporting
 - Test Documentation
-
-Cristina Marina  
-Junior QA – API Testing Practice Project
