@@ -9,6 +9,8 @@
 | AS-06 | POST /users (missing email) | 201 | 201 | Pass |
 | AS-07 | PUT /users/1 | 200 | 200 | Pass |
 | AS-08 | PUT /users/9999 | 200 | 500 | Fail |
+| AS-09 | DELETE /users/1 | 200 | 200 | Pass |
+| AS-10 | DELETE /users/9999 | 200 | 200 | Pass |
 
 
 ## Defects Identified:
@@ -16,6 +18,6 @@
 
 ## Summary
 
-Total Executed: 8  
-Passed: 7  
+Total Executed: 10  
+Passed: 9  
 Failed: 1  
